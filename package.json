@@ -1,0 +1,16 @@
+{
+  "name": "typescript-workshop-examples",
+  "version": "1.0.0",
+  "description": "Examples for Yolk Studio TypeScript workshop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrfullset/typescript-workshop-examples.git"
+  },
+  "author": "Alex Goncharov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9"
+  }
+}
