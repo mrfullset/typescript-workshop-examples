@@ -1,18 +1,3 @@
-namespace Omit {
-  type A = {
-    a: string;
-    b: number;
-    c: boolean;
-  };
-
-  type B = Omit<A, "a">;
-
-  const b: B = {
-    b: 1,
-    c: true,
-  };
-}
-
 namespace Partial {
   type A = {
     a: string;
@@ -83,4 +68,27 @@ namespace Intersection {
   type C = A & B;
 
   const c: C = { a: "", b: 1, c: true, d: "", e: 1, f: false };
+}
+
+namespace Omit {
+  type A = {
+    a: string;
+    b: number;
+    c: boolean;
+  };
+
+  type B = Omit<A, "a">;
+
+  const b: B = {
+    b: 1,
+    c: true,
+  };
+}
+
+namespace Exclude {
+  type A = string | number;
+  type B = Exclude<A, number>;
+
+  type C = 'hello' | 'world';
+  type D = Exclude<C, 'world'>;
 }
