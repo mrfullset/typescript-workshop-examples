@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 namespace ButtonXORProps_1 {
   type CommonProps = {
     label: string;
