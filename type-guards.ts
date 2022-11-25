@@ -30,16 +30,16 @@ namespace TypeGuards {
     }
   };
 
-  // 
-  // const isNumericEvent = (e: Event): e is NumericButtonEvent => {
-  //   return "value" in e;
-  // };
+  
+  const isNumericEvent = (e: Event): e is NumericButtonEvent => {
+    return "value" in e;
+  };
 
-  // const onClick = (e: Event) => {
-  //   if (isNumericEvent(e)) {
-  //     onNumericButtonClick(e);
-  //   } else {
-  //     onOperationButtonClick(e);
-  //   }
-  // };
+  const onClick = (e: Event) => {
+    if (isNumericEvent(e)) {
+      onNumericButtonClick(e);
+    } else {
+      onOperationButtonClick(e);
+    }
+  };
 }
