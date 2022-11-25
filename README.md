@@ -13,7 +13,8 @@ The best order to go through
 7. 💂‍♀️ Type guards
 8. ⚛️ React
 9. ⏭️ Next
-10. 🥵 Pro examples
+10. Bonus: Types vs Interfaces
+11. 🥵 Pro examples
 
 
 (or just look at number in the file name 😎)
